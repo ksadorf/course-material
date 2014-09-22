@@ -9,3 +9,5 @@ Write a function clean_dict(A,B) that takes 2 dictionnaries in parameters that r
 
 Dict can be casted.
 
+
+## References
