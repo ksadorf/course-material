@@ -1,5 +1,5 @@
 #!/usr/bin/python
 import string
 
-allTheLetters = 'abcdefghijklnmopqrstuvwxyz' 
+allTheLetters = 'abcdefghijklnmopqrstuvwxyz'
 print(allTheLetters)
