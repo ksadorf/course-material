@@ -1,5 +1,5 @@
 #!/usr/bin/python
 import string
 
-allTheLetters = string.ascii_lowercase
+allTheLetters = 'abcdefghijklnmopqrstuvwxyz' 
 print(allTheLetters)
