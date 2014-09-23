@@ -1,4 +1,3 @@
-from prime import *
 import random
 import fractions
 
