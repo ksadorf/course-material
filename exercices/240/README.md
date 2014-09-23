@@ -11,7 +11,7 @@ dot. Such as:
 
 ```bash
 $ python3 solution.py
-1, 2, 3 ...
+1, 2, 3.
 ```
 
 ## References
