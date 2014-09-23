@@ -17,5 +17,9 @@ ddress': '139 AVENUE JEAN LOLIVE / MAIL CHARLES DE GAULLE \
 ude': 48.893268664697416, 'city': 'PANTIN', 'name': 'DE GA\
 ULLE (PANTIN)', 'longitude': 2.412715733388685}]
 
-for s in velib:
-    print(s['name'], s['zip'], s['city'])
+
+def check_my_city(z):
+    for s in velib:
+        if s['city'] == z:
+            return (1, 'stations for', s['city'], [s['zip']])
+    return ("Sorry! No station for your city has been found!")
