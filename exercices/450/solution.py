@@ -10,6 +10,8 @@ def caesar_cypher(s, k, mod):
     for i in s:
         if i in ascii_uppercase:
             base = ord('A')
+        else:
+            base = ord('a')
         if i in ascii_uppercase or i in ascii_lowercase:
             if mod == "forward":
                 dec = (ord(i) + k - base) % 26 + base
