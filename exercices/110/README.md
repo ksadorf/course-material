@@ -14,12 +14,11 @@ Input will integer numbers.
 oa@localhost$ ./solution.py 1 + 1
 2
 oa@localhost$ ./solution.py
-usage: ./calc.py a_number (an_operator +-*/%) a_number
+usage: python3 ./solution.py a_number (an_operator +-*/%^) a_number
 oa@localhost$ ./solution.py 1 / 0
 input error
 oa@localhost$
 ```
-
 
 ## References
  - [argv](https://docs.python.org/3.4/library/sys.html)

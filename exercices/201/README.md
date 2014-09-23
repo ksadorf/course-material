@@ -4,7 +4,7 @@ Authors(s): c24b
 ## Instructions
 
 Write a function is_alpha that takes on parameters and return True if the
-given parameter is composed of any letter, False otherwise.
+given parameter is composed of **any** letter, False otherwise.
 
 So it will look like:
 ```python

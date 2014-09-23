@@ -1,4 +1,4 @@
-#Manipulate your first dictionnary
+# Manipulate your first dictionnary
 
 Introduces: dict, print.
 
@@ -28,9 +28,6 @@ number 31705
 name CHAMPEAUX (BAGNOLET)
 address RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE) - 93170 BAGNOLET
 ```
- 
-
-
 
 ## References
  - [dict](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict)

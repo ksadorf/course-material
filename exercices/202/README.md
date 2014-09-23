@@ -3,12 +3,12 @@ Introduces: bool, functions, if.
 Authors(s): c24b
 ## Instructions
 
-Write a function starts_with(A,B) that takes two parameters and return True if the
-A begins with B, False otherwise.
+Write your own function starts_with(A, B) that takes two parameters and
+return True if the A begins with B, False otherwise.
 
 So it will look like:
 ```python
-def startwiths(input, value):
+def start_with(input, value):
     ...
     ... ...
     ... return False

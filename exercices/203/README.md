@@ -1,10 +1,11 @@
-#is_multiple_of
+# is_multiple_of
 Introduces: numbers, bool.
 Author(s): c24b
 
-#Instruction
+## Instruction
 
-Write a function is_multiple(A,B) that takes 2 arguments return True if A is a multiple of B otherwhise False.
+Write a function is_multiple(a, b) that takes 2 arguments return True
+if a is a multiple of b, otherwhise False.
 
 ## References
  - [numbers](https://docs.python.org/3/tutorial/introduction.html#numbers)
