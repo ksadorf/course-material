@@ -1,2 +1,2 @@
-def is_multiple_of(A, B):
+def is_multiple(A, B):
     return A % B == 0
