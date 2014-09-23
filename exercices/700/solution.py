@@ -1,28 +1,30 @@
 import numpy as np
 import random
 
+
 def randGridPlace():
     return random.randint(0, 3), random.randint(0, 3)
 
+
 def init_grid():
-    m = np.zeros((4,4), dtype=int)
+    m = np.zeros((4, 4), dtype=int)
     u, v = randGridPlace()
-    uu, vv= u, v
+    uu, vv = u, v
     m[u, v] = 2
-    while uu == u and vv == v :
+    while uu == u and vv == v:
         uu, vv = randGridPlace()
-    m[uu,vv]=2
+    m[uu, vv] = 2
     return m
 
 
 def add_new(grid):
     available = np.where(grid == 0)
-    places = zip(available[0],available[1])
+    places = zip(available[0], available[1])
     if len(available[0]) == 0:
         return grid
-    pick = random.randint(0,len(available[0])-1)
+    pick = random.randint(0, len(available[0]) - 1)
     u, v = available[0][pick], available[1][pick]
-    if random.random() <= 0.8 :
+    if random.random() <= 0.8:
         grid[u, v] = 2
     else:
         grid[u, v] = 4
@@ -38,7 +40,7 @@ def rollin_row(r):
         if r[base] == r[indice]:
             r[base] += r[indice]
             r[indice] = 0
-            base += 1 
+            base += 1
             indice = base + 1
         else:
             if r[base] == 0:
@@ -56,51 +58,48 @@ def rollin(grid, direction):
             rollin_row(r)
     elif direction == 'r':
         for r in grid:
-            r=rollin_row(r[::-1])
+            rollin_row(r[:: - 1])
     elif direction == 'u':
         for r in grid.T:
-            r=rollin_row(r)
+            rollin_row(r)
     elif direction == 'd':
         for r in grid.T:
-            r=rollin_row(r[::-1])
+            rollin_row(r[:: - 1])
     add_new(grid)
-    cprint(stdscr,grid)
+    cprint(stdscr, grid)
     return grid
 
 
-def cprint(screen,g):
-    for i,r in enumerate(g):
-        screen.addstr(i,0,str(r))
+def cprint(screen, g):
+    for i, r in enumerate(g):
+        screen.addstr(i, 0, str(r))
 
 import curses
 stdscr = curses.initscr()
 curses.cbreak()
 stdscr.keypad(1)
 curses.curs_set(0)
-stdscr.addstr(6,0,"Hit 'q' to quit")
+stdscr.addstr(6, 0, "Hit 'q' to quit")
 stdscr.refresh()
-g=init_grid()
-cprint(stdscr,g)
-stdscr.addstr(5,0,'This is your grid. Goog luck!')
+g = init_grid()
+cprint(stdscr, g)
+stdscr.addstr(5, 0, 'This is your grid. Goog luck!')
 key = ''
 while key != ord('q'):
     key = stdscr.getch()
-    curses.setsyx(0,0)
+    curses.setsyx(0, 0)
     stdscr.clear()
     stdscr.refresh()
     if key == curses.KEY_UP or key == ord('u'):
-        g = rollin(g,'u')
-        stdscr.addstr(5,0,'Direction used: UP')
+        g = rollin(g, 'u')
+        stdscr.addstr(5, 0, 'Direction used: UP')
     if key == curses.KEY_DOWN or key == ord('d'):
-        g = rollin(g,'d')
-        stdscr.addstr(5,0,'Direction used: DOWN')
+        g = rollin(g, 'd')
+        stdscr.addstr(5, 0, 'Direction used: DOWN')
     if key == curses.KEY_RIGHT or key == ord('r'):
-        g = rollin(g,'r')
-        stdscr.addstr(5,0,'Direction used: RIGHT')
+        g = rollin(g, 'r')
+        stdscr.addstr(5, 0, 'Direction used: RIGHT')
     if key == curses.KEY_LEFT or key == ord('l'):
-        g = rollin(g,'l')
-        stdscr.addstr(5,0,'Direction used: LEFT')
+        g = rollin(g, 'l')
+        stdscr.addstr(5, 0, 'Direction used: LEFT')
 curses.endwin()
-
-
-
