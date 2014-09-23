@@ -63,6 +63,44 @@ def rollin(grid, direction):
     elif direction == 'd':
         for r in grid.T:
             r=rollin_row(r[::-1])
+    add_new(grid)
+    cprint(stdscr,grid)
     return grid
+
+
+def cprint(screen,g):
+    for i,r in enumerate(g):
+        screen.addstr(i,0,str(r))
+
+import curses
+stdscr = curses.initscr()
+curses.cbreak()
+stdscr.keypad(1)
+curses.curs_set(0)
+stdscr.addstr(6,0,"Hit 'q' to quit")
+stdscr.refresh()
+g=init_grid()
+cprint(stdscr,g)
+stdscr.addstr(5,0,'This is your grid. Goog luck!')
+key = ''
+while key != ord('q'):
+    key = stdscr.getch()
+    curses.setsyx(0,0)
+    stdscr.clear()
+    stdscr.refresh()
+    if key == curses.KEY_UP or key == ord('u'):
+        g = rollin(g,'u')
+        stdscr.addstr(5,0,'Direction used: UP')
+    if key == curses.KEY_DOWN or key == ord('d'):
+        g = rollin(g,'d')
+        stdscr.addstr(5,0,'Direction used: DOWN')
+    if key == curses.KEY_RIGHT or key == ord('r'):
+        g = rollin(g,'r')
+        stdscr.addstr(5,0,'Direction used: RIGHT')
+    if key == curses.KEY_LEFT or key == ord('l'):
+        g = rollin(g,'l')
+        stdscr.addstr(5,0,'Direction used: LEFT')
+curses.endwin()
+
 
 
