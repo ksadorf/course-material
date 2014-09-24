@@ -10,6 +10,6 @@ def caesar_cypher(s, k, mod):
     for place, i in enumerate(res):
         base = ord('a') if i in ascii_lowercase else ord('A')
         if i in ascii_uppercase or i in ascii_lowercase:
-            ascii = mod(ord(i) - base,k) % 26
+            ascii = mod(ord(i) - base, k) % 26
             res[place] = chr(ascii + base)
     return "".join(res)
