@@ -2,6 +2,8 @@
 
 Introduces: list_comprehensions, generators.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Resolve the [11th euler problem](https://projecteuler.net/problem=11)

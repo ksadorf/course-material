@@ -1,6 +1,7 @@
-#starts_with
+# starts_with
 Introduces: bool, functions, if.
 Authors(s): c24b
+
 ## Instructions
 
 Write your own function `starts_with(A, B)` with `A` and `B` of type string and

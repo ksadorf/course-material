@@ -2,6 +2,8 @@
 
 Introduces: print, strings.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Write a script named `solution.py` that prints "Hello World".

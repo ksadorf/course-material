@@ -2,6 +2,8 @@
 
 Introduces: argv, import.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Write a script named `solution.py` that find the name of the script and print it.

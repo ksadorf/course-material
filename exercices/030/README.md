@@ -2,6 +2,8 @@
 
 Introduces: range, if.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Write a script names `solution.py` that prints every even numbers

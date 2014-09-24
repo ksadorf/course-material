@@ -2,6 +2,8 @@
 
 Introduces: functions.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Provide the script solution.py where you define a function

@@ -2,6 +2,8 @@
 
 Introduces: strings, operators.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Provide the script `solution.py` that prints every possible pairs of two letters, only lower case, one by

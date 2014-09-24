@@ -2,6 +2,8 @@
 
 Introduces: file.
 
+Author(s): Julien Palard
+
 ## Instructions
 Open the file 'words' and print its content, that's all.
 

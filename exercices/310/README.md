@@ -2,6 +2,8 @@
 
 Introduces: file.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Open the file 'words', count the 'e', print the count.

@@ -2,6 +2,8 @@
 
 Introduces: functions, strings, print, for, range.
 
+Author(s): @mazieres
+
 ## Instructions
 
 You must provide the function `draw_n_squares(n)` that **returns** a string of squares, such as:

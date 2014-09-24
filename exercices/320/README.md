@@ -2,6 +2,8 @@
 
 Introduces: file, format, dict.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Open the file 'words', compute the frequency of every letters, and

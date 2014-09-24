@@ -2,6 +2,8 @@
 
 Introduces: math, numpy, timeit, functions, lambda.
 
+Author(s): @mazieres
+
 ## Description
 
 See exercise 260 for more info on [euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) and necessary functions to complete the exercise.

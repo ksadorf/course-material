@@ -16,6 +16,5 @@ mbp|~-$
 
 Comparaisons: <https://docs.python.org/3/library/stdtypes.html#comparisons>
 
-
 ## References
  - [comparisons](https://docs.python.org/3.1/library/stdtypes.html#comparisons)

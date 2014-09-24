@@ -2,6 +2,8 @@
 
 Introduces: variables.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Provide a script `solution.py` that prints the sum of every even numbers in the range [0; 100]
