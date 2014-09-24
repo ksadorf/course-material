@@ -2,6 +2,8 @@
 
 Introduces: math, numpy.
 
+Authors: Antoine Mazieres
+
 ## Description
 
 You will calculate the distance between two points. More precisely the [euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance).
@@ -33,6 +35,8 @@ You must provide a script called `solution.py` in which there is the following f
 	```python
 	import numpy as np
 	```
+Calculating the euclidean distance implies the usage of power, square root and sum functions. For each functions you must provide, you should use the versions of this calculation provided in the related module (like, `** 2`, `math.pow()` and `numpy.power()`). 
+
 Such as:
 
 ```python
@@ -52,6 +56,7 @@ True
 >>> euclidean(a, b)
 12.12435565298214
 ```
+
 ## References
  - [math](https://docs.python.org/3.4/library/math.html)
  - [numpy](http://www.numpy.org/)

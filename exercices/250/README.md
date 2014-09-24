@@ -2,7 +2,7 @@
 
 Introduces: functions, strings, print, for, range.
 
-Author(s): @mazieres
+Author(s): Antoine Mazieres
 
 ## Instructions
 

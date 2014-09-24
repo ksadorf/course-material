@@ -2,6 +2,8 @@
 
 Introduces: argv, import, len, list, for, enumerate.
 
+Author(s): Antoine Angot
+
 ## Instructions
 
 Write a program named `solution.py` that do basic calculations.
@@ -24,6 +26,28 @@ oa@localhost$ ./solution.py 1 / 0
 input error
 oa@localhost$
 ```
+
+## Advice
+
+(**MAC**) To input a asterix to a python script you must type '\*', such as:
+
+```bash
+mbp|110-$ python solution.py 3 / 5
+0.6
+mbp|110-$ python solution.py 3 + 5
+8
+mbp|110-$ python solution.py 3 - 5
+-2
+mbp|110-$ python solution.py 3 * 5
+usage: python3 ./solution.py a_number (an_operator +-*/%^) a_number
+mbp|110-$ python solution.py 3 \* 5
+15
+```
+
+(**WINDOWS**) The same apply for Git Bash (the terminal) on windows for `*`. Moreover, `/` must be passed as `//`.
+Such as:
+
+![110 erratum](https://hackinscience.github.io/img/110_erratum.png)
 
 ## References
  - [argv](https://docs.python.org/3.4/library/sys.html)

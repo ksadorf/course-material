@@ -2,7 +2,7 @@
 
 Introduces: list, functions, operators.
 
-Author(s): @mazieres
+Author(s): Antoine Mazières
 
 ## Description
 

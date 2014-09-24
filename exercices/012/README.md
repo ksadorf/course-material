@@ -2,6 +2,8 @@
 
 Introduces: comparisons.
 
+Author(s): Antoine Mazieres, Julien Palard
+
 ## Instructions
 
 Provide a script `solution.py` that prints what python think about 2 + 2 not being equal to 5.

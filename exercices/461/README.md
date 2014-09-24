@@ -2,7 +2,7 @@
 
 Introduces: math, numpy, timeit, functions, lambda.
 
-Author(s): @mazieres
+Author(s): Antoine Mazieres
 
 ## Description
 
