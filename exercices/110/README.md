@@ -8,6 +8,11 @@ Write a program named `solution.py` that do basic calculations.
 You need to be able to get basic operators such as +, - , *, / and %.
 Input will integer numbers.
 
+Your program will give a usage message if you don't give the three parameters.
+
+For every other errors like if an operand is not an integer, you'll
+print an `input error`.
+
 ## Example
 
 ```bash
@@ -27,7 +32,3 @@ oa@localhost$
  - [list](https://docs.python.org/3/tutorial/introduction.html#lists)
  - [for](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
  - [enumerate](https://docs.python.org/3.4/library/functions.html#enumerate)
- - [enumerate](☛)
- - [enumerate](for(print,)
- - [enumerate](list))
- - [enumerate](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
