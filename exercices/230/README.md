@@ -2,6 +2,8 @@
 
 Introduces: itertools, module.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Provide the script `solution.py` that prints the first prime number greater than 100000000.

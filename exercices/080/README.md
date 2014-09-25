@@ -2,6 +2,8 @@
 
 Introduces: strings, for, if.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Print every possible **combinations** of 2 lowercase letters, one by line.

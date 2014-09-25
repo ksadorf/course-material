@@ -2,9 +2,11 @@
 
 Introduces: functions, strings, print, for, range.
 
+Author(s): Antoine Mazieres
+
 ## Instructions
 
-You must provide the function `draw_n_squares(n)` that returns a string of squares, such as:
+You must provide the function `draw_n_squares(n)` that **returns** a string of squares, such as:
 
 ```python
 >>> from solution import *

@@ -1,11 +1,12 @@
 # count parameters
 
 Introduces: argv, import, len, list, for, enumerate.
+
 Author(s): @c24b.
 
 ## Instructions
 
-Write a script named `solution.py` that outputs the position of the argument and it's value in a new line using a `for`.
+Write a script named `solution.py` that outputs the position of the argument and its value in a new line using a `for`.
 
 ## Advice
 
@@ -34,7 +35,3 @@ julien@localhost$
  - [list](https://docs.python.org/3/tutorial/introduction.html#lists)
  - [for](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
  - [enumerate](https://docs.python.org/3.4/library/functions.html#enumerate)
- - [enumerate](☛)
- - [enumerate](for(print,)
- - [enumerate](list))
- - [enumerate](https://docs.python.org/3/tutorial/controlflow.html#for-statements)

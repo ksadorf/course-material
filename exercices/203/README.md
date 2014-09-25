@@ -1,5 +1,7 @@
 # is_multiple_of
+
 Introduces: numbers, bool.
+
 Author(s): c24b
 
 ## Instruction

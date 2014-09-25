@@ -2,7 +2,7 @@
 
 Introduces: numpy, input.
 
-Author(s): @mazieres
+Author(s): Antoine Mazieres
 
 During this exercise you will build your own [2048](https://gabrielecirulli.github.io/2048/) game ! If you never played, have some fun [here](https://gabrielecirulli.github.io/2048/) for a moment :)
 

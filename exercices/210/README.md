@@ -2,6 +2,8 @@
 
 Introduces: module, for, numbers, functions, if.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Provide the script `solution.py` that prints the sum of every prime number inferior to 1000.

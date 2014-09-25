@@ -2,7 +2,7 @@
 
 Introduces: pip.
 
-Author(s): @sizeof
+Author(s): Julien Palard
 
 ## Instructions
 

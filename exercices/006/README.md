@@ -2,7 +2,9 @@
 
 Introduces: list.
 
-## Instructions 
+Author(s): Julien Palard
+
+## Instructions
 
 Write a script named `solutions.py` that prints the list `["Hello world", 42]`
 

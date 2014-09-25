@@ -2,6 +2,8 @@
 
 Introduces: file.
 
+Author(s): Julien Palard
+
 ## Instructions
 Open the file 'words' and print its content, that's all.
 
@@ -35,5 +37,6 @@ nor:
 
 julien@localhost$
 ```
+
 ## References
  - [file](https://docs.python.org/3.3/tutorial/inputoutput.html#reading-and-writing-files)

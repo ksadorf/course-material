@@ -2,6 +2,8 @@
 
 ## Instructions
 
+Author(s): Julien Palard
+
 Write a function, mul, that multiplies all numbers of the given
 list of numbers.
 

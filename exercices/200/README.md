@@ -2,6 +2,8 @@
 
 Introduces: bool, functions, if.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Provide the script `solution.py` where you define the function `is_prime(num)`.

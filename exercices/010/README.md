@@ -2,6 +2,8 @@
 
 Introduces: for, range.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Provide a script `solution.py` that prints `Hello World` one hundred times, one line per each.
@@ -11,7 +13,6 @@ Provide a script `solution.py` that prints `Hello World` one hundred times, one 
 range: <https://docs.python.org/3/library/functions.html>
 
 for: <https://docs.python.org/3/tutorial/controlflow.html#for-statements>
-
 
 ## References
  - [for](https://docs.python.org/3/tutorial/controlflow.html#for-statements)

@@ -2,6 +2,8 @@
 
 Introduces: functions, slice, cast.
 
+Author(s): Julien Palard
+
 ## Instructions
 
 Resolve the [8th euler problem](https://projecteuler.net/problem=8).
